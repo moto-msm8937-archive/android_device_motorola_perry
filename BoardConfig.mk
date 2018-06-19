@@ -18,6 +18,10 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Kernel
 TARGET_KERNEL_CONFIG := montana_defconfig
 
+# Lineage hardware
+BOARD_HARDWARE_CLASS += \
+    $(DEVICE_PATH)/lineagehw
+
 # NFC
 NXP_CHIP_TYPE := pn554
 BOARD_NFC_HAL_SUFFIX := $(TARGET_BOARD_PLATFORM)
@@ -28,6 +32,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 26403126272
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-08-01
+
+# SELinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # System as root
 BOARD_KERNEL_CMDLINE += dm=\"system none ro,0 1 android-verity /dev/mmcblk0p53\"
