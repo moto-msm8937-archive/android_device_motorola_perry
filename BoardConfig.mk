@@ -18,9 +18,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Kernel
 TARGET_KERNEL_CONFIG := montana_defconfig
 
-# Lineage hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
-
 # NFC
 NXP_CHIP_TYPE := pn554
 BOARD_NFC_HAL_SUFFIX := $(TARGET_BOARD_PLATFORM)
