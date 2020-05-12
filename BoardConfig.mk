@@ -7,13 +7,13 @@
 # Inherit from msm8937-common
 -include device/motorola/msm8937-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/hannah
+DEVICE_PATH := device/motorola/montana
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hannah,hannah_t,ahannah,rhannah
+TARGET_OTA_ASSERT_DEVICE := montana
 
 # Kernel
-TARGET_KERNEL_CONFIG := hannah_defconfig
+TARGET_KERNEL_CONFIG := montana_defconfig
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 25165824
@@ -23,4 +23,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27124546560
 VENDOR_SECURITY_PATCH := 2019-03-01
 
 # Inherit from the proprietary version
--include vendor/motorola/hannah/BoardConfigVendor.mk
+-include vendor/motorola/montana/BoardConfigVendor.mk
