@@ -12,6 +12,9 @@ DEVICE_PATH := device/motorola/montana
 # Assert
 TARGET_OTA_ASSERT_DEVICE := montana
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := montana_defconfig
 
