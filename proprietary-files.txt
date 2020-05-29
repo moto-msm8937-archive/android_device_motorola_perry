@@ -86,7 +86,6 @@ vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmorpho_image_stabilizer4.so
-vendor/lib/libmot_gpu_mapper.so
 vendor/lib/libmotocalibration.so
 vendor/lib/libmpbase.so
 vendor/lib/liboptizoom.so
@@ -96,6 +95,9 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 vendor/lib/libzxingcpp.so
+
+# Camera - from aljeter PPP29.55-35-18
+vendor/lib/libmot_gpu_mapper.so|d48ac1e92a30aa292815ba008ce0d3c7284cf16d
 
 # Camera ISP
 vendor/lib/libmmcamera_isp_abf40.so
