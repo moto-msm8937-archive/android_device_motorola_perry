@@ -32,5 +32,8 @@ VENDOR_SECURITY_PATCH := 2019-08-01
 # System as root
 BOARD_KERNEL_CMDLINE += dm=\"system none ro,0 1 android-verity /dev/mmcblk0p53\"
 
+# Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Inherit from the proprietary version
 -include vendor/motorola/montana/BoardConfigVendor.mk
