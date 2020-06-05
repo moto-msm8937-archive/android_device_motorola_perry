@@ -8,10 +8,9 @@ etc/acdbdata/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
 etc/acdbdata/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-lib/libavenhancements.so:vendor/lib/libavenhancements.so
-lib/libmbs.so:vendor/lib/libmbs.so
 lib/libmot-qc-fd-offline.so:vendor/lib/libmot-qc-fd-offline.so
 lib/libmot_lux_standardization.so:vendor/lib/libmot_lux_standardization.so
+lib/lib_mot_app6_metadata.so:vendor/lib/lib_mot_app6_metadata.so
 lib/lib_motsensorlistener.so:vendor/lib/lib_motsensorlistener.so
 vendor/bin/mm-qcamera-daemon
 vendor/lib/hw/camera.msm8937.so
@@ -25,6 +24,7 @@ vendor/lib/libflash_aw3641.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libflash_sky81298.so
 vendor/lib/libflash_wd3100.so
+vendor/lib/libgralloc1.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
