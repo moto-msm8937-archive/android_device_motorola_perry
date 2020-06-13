@@ -16,6 +16,9 @@ on init
     setprop dalvik.vm.dex2oat-threads 6
     setprop persist.rcs.supported 1
 
+    # Set display properties
+    setprop ro.sf.lcd_density 420
+
     # Variant properties
 on property:ro.boot.radio=APAC
     setprop ro.hw.ecompass false
