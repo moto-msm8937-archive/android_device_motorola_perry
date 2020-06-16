@@ -11,13 +11,6 @@ on init
     # Set Hardware properties
     setprop ro.product.model ${ro.boot.hardware.sku}
     setprop ro.product.name montana
-    setprop ro.hardware.sensors montana
-    setprop ro.hw.imager 16MP
-    setprop dalvik.vm.dex2oat-threads 6
-    setprop persist.rcs.supported 1
-
-    # Set display properties
-    setprop ro.sf.lcd_density 420
 
     # Variant properties
 on property:ro.boot.radio=APAC
