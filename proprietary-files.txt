@@ -31,6 +31,7 @@ vendor/lib/libjpegehw.so
 vendor/lib/libjscore.so|bffdc687f62576a35e768eb5a311ac12399a46a4
 vendor/lib/libjustshoot.so|4f77f2b2f97a524ff6b6ada9a9e2cb830b05845a
 vendor/lib/libllvd_smore.so
+vendor/lib/libllvd_sw_tnr.so
 vendor/lib/libmm-disp-apis.so
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmm-omxcore.so
@@ -58,6 +59,7 @@ vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so|61bc1cd130ca4c9f7cd31a8d6cd4bd5e19e989d0
 vendor/lib/libmmcamera_quadracfa.so
 vendor/lib/libmmcamera_stillmore_lib.so
+vendor/lib/libmmcamera_sw_tnr.so
 vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
 vendor/lib/libmmcamera_tintless_algo.so
@@ -92,6 +94,8 @@ vendor/lib/liboptizoom.so
 vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
+vendor/lib/libremosaic_daemon.so
+vendor/lib/libseemore.so
 vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 vendor/lib/libzxingcpp.so
