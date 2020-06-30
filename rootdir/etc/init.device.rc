@@ -10,7 +10,7 @@ on boot
 on init
     # Set Hardware properties
     setprop ro.product.model ${ro.boot.hardware.sku}
-    setprop ro.product.name montana
+    setprop ro.product.name perry
 
     # Variant properties
 on property:ro.boot.radio=APAC

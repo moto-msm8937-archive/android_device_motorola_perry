@@ -10,10 +10,10 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 # Inherit from msm8937-common
 -include device/motorola/msm8937-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/montana
+DEVICE_PATH := device/motorola/perry
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := montana
+TARGET_OTA_ASSERT_DEVICE := perry
 
 # Camera
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
@@ -23,7 +23,7 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := montana_defconfig
+TARGET_KERNEL_CONFIG := perry_defconfig
 
 # NFC
 NXP_CHIP_TYPE := pn554
@@ -43,4 +43,4 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 BOARD_KERNEL_CMDLINE += dm=\"system none ro,0 1 android-verity /dev/mmcblk0p53\"
 
 # Inherit from the proprietary version
--include vendor/motorola/montana/BoardConfigVendor.mk
+-include vendor/motorola/perry/BoardConfigVendor.mk

@@ -14,7 +14,7 @@ fi
 set -e
 
 # Required!
-export DEVICE=montana
+export DEVICE=perry
 export DEVICE_COMMON=msm8937-common
 export VENDOR=motorola
 
