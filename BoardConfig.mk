@@ -36,9 +36,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 10768858112
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-08-01
 
-# SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-
 # System as root
 BOARD_KERNEL_CMDLINE += dm=\"system none ro,0 1 android-verity /dev/mmcblk0p53\"
 
