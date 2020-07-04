@@ -480,5 +480,5 @@ etc/firmware/opalum.tx.ext.config.2:vendor/firmware/opalum.tx.ext.config.2
 etc/firmware/opalum.tx.ext.config.3:vendor/firmware/opalum.tx.ext.config.3
 
 # Touchscreen firmware
-etc/firmware/synaptics-ofilm-s3603r-17082401-2701E5-perry.tdat:vendor/firmware/synaptics-ofilm-s3603r-17082401-2701E5-perry.tdat<Paste>
-etc/firmware/synaptics-tianma-s3603r-17082401-27030E-perry.tdat:vendor/firmware/synaptics-tianma-s3603r-17082401-27030E-perry.tdat<Paste>
+etc/firmware/synaptics-ofilm-s3603r-17082401-2701E5-perry.tdat:vendor/firmware/synaptics-ofilm-s3603r-17082401-2701E5-perry.tdat
+etc/firmware/synaptics-tianma-s3603r-17082401-27030E-perry.tdat:vendor/firmware/synaptics-tianma-s3603r-17082401-27030E-perry.tdat
